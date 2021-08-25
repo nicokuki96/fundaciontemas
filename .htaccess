@@ -12,8 +12,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /fundacion-temas/index.php [L]
 </IfModule>
-php_value upload_max_filesize 900M
-php_value post_max_size 900M
-php_value max_execution_time 300
-php_value max_input_time 300
+
 # END WordPress
